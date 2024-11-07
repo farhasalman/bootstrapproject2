@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Deals - Tasty Foods</title>
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <script src="./asset/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="icon" href="./asset/css/images/biriyani.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-warning fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white fw-bold custom-font "  href="#" >Tasty Foods</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Orders</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Deals
+                        </a>
+                        <ul class="dropdown-menu bg-warning">
+                            <li><a class="dropdown-item" href="./offers.html">Offers</a></li>
+                            <li><a class="dropdown-item" href="#"></a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./newdeals.html">New Deals</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="./location.html">Location</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success bg-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Deals Section -->
+    <section class="container mt-5">
+        <h1 class="text-center mt-5 mb-4">Special Deals</h1>
+        <div class="row">
+            <!-- Deal Card 1 -->
+            <div class="col-md-4">
+                <div class="card offer-card">
+                    <img src="./asset/css/images/carsl2.jpg" class="card-img-top" alt="Deal 1">
+                    <div class="card-body">
+                        <h5 class="card-title">30% Off on All Orders</h5>
+                        <p class="card-text">Get 30% off on all order. Hurry, the offer is valid for a limited time!</p>
+                        <button class="btn btn-primary">Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Deal Card 2 -->
+            <div class="col-md-4">
+                <div class="card offer-card">
+                    <img src="./asset/css/images/sweets.jpg" class="card-img-top" alt="Deal 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Free Dessert with Every Main Course</h5>
+                        <p class="card-text">Enjoy a complimentary dessert when you order any main course.</p>
+                        <button class="btn btn-primary">Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Deal Card 3 -->
+            <div class="col-md-4">
+                <div class="card offer-card">
+                    <img src="./asset/css/images/biriyani.jpg" class="card-img-top" alt="Deal 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Buy 2, Get 1 Free on Biriyani</h5>
+                        <p class="card-text">Buy any 2 biriyani and get another one free. Limited time offer!</p>
+                        <button class="btn btn-primary">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-warning text-white pt-4 pb-2" id="footer">
+        <div class="container">
+            <div class="row text-center text-md-start">
+                <!-- About Us Section -->
+                <div class="col-md-4 mb-3">
+                    <h5 class="fw-bold fs-3">About Tasty Foods</h5>
+                    <p>Tasty Foods offers a variety of delicious dishes that will leave you craving for more. From spicy biryanis to refreshing salads, we have it all!</p>
+                </div>
+
+                <!-- Quick Links Section -->
+                <div class="col-md-4 mb-3">
+                    <h5 class="fw-bold fs-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="./index.html" class="text-white text-decoration-none">Home</a></li>
+                        <li><a href="./index.html" class="text-white text-decoration-none">Orders</a></li>
+                        <li><a href="./offers.html" class="text-white text-decoration-none">Offers</a></li>
+                        <li><a href="./index.html" class="text-white text-decoration-none">Location</a></li>
+                    </ul>
+                </div>
+
+                <!-- Social Media and Contact Section -->
+                <div class="col-md-4 mb-3">
+                    <h5 class="fw-bold fs-3">Contact Us</h5>
+                    <p><i class="fas fa-phone-alt me-2"></i>012345678</p>
+                    <p><i class="fas fa-envelope me-2"></i><a href="mailto:tastyfood@gmail.com" class="text-white text-decoration-none">tastyfood@gmail.com</a></p>
+                    <p><i class="fas fa-map-marker-alt me-2"></i>Kochi, Kerala</p>
+
+                    <!-- Social Media Icons -->
+                    <div class="mt-2">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="bg-secondary text-center py-3">
+            <p class="mb-0">&copy; 2024 Tasty Foods. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

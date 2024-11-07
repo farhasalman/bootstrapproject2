@@ -1,0 +1,19 @@
+img.slide{
+    height: 750px;
+}
+img.card-img{
+    height: 190px;
+}
+.custom-font{
+    font-size: 3rem;
+}
+.arrow{
+    position: fixed;
+    border-radius: 50px;
+    height: 50px;
+    bottom: 15px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+  }
